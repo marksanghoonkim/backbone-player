@@ -1,0 +1,25 @@
+body {
+  font-family: 'Helvetica';
+  font-size: 15px;
+}
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+audio {
+  width: 90%;
+}
+.nowPlaying {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+th {
+  margin: 0;
+  padding: 0;
+}
+.listHeader {
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
