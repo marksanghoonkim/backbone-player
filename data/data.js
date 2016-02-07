@@ -16,8 +16,28 @@ var songData = [
     artist: "Scott Holmes",
   },
   {
-    url: "data/Astrometrics_-_03_-_Get_Ready_For_The_Apocalypse.mp3",
-    title: "Get Ready for the Apocalypse",
-    artist: "Astrometrics",
+    url: "data/Pictures_of_the_Floating_World_-_01_-_Cold.mp3",
+    title: "Cold",
+    artist: "Pictures of a Floating World"
+  },
+  {
+    url: "data/Pictures_of_the_Floating_World_-_02_-_Sometimes_It_Shines.mp3",
+    title: "Sometimes It Shines",
+    artist: "Pictures of a Floating World"
+  },
+  {
+    url: "data/Pictures_of_the_Floating_World_-_03_-_Silence.mp3",
+    title: "Silence",
+    artist: "Pictures of a Floating World"
+  },
+  {
+    url: "data/Pictures_of_the_Floating_World_-_04_-_Ash_Gray.mp3",
+    title: "Ash Gray",
+    artist: "Pictures of a Floating World"
+  },
+  {
+    url: "data/Pictures_of_the_Floating_World_-_05_-_A_Thousand_Stars.mp3",
+    title: "A Thousand Stars",
+    artist: "Pictures of a Floating World"
   }
 ];
