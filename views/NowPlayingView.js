@@ -15,7 +15,6 @@ var NowPlayingView = Backbone.View.extend({
   },
 
   render: function(){
-    // debugger;
     if (this.model.attributes.artist === undefined) {
       return this.$el.html('<div class="nowPlaying"><span style="opacity: 0">PLACEHOLDER</span></div>');
     } else {

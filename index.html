@@ -2,20 +2,16 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles/styles.css">
-    <!-- Scripts may be placed anywhere on a page. But FYI, they block rendering of elements
-     below them until after the scripts load-->
     <script src="bower_components/jquery/jquery.min.js"></script>
     <script src="bower_components/underscore/underscore.js"></script>
     <script src="bower_components/backbone/backbone.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
 
     <script src="data/data.js"></script>
-
+    <script src="models/AppModel.js"></script>
     <script src="models/SongModel.js"></script>
     <script src="collections/Songs.js"></script>
     <script src="collections/SongQueue.js"></script>
-    <script src="models/AppModel.js"></script>
-
     <script src="views/AppView.js"></script>
     <script src="views/LibraryEntryView.js"></script>
     <script src="views/LibraryView.js"></script>
@@ -30,10 +26,8 @@
   <body>
     <h2 style="margin-left: 15px">KimYeh Player</h2>
     <div id="container"></div>
-    <div>
     <script>
       $(function(){
-        // set up model objects
         // Library is new collection(Songs) of Song objects made from songData
         var library = new Songs(songData);
 
